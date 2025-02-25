@@ -4,8 +4,8 @@ public class elseif {
 
 	public static void main(String[] args) {
 
-		double saldo = 25.0;
-		double saque = 30.0;
+		double saldo = 30.0;
+		double saque = 10.0;
 
 		if (saque < saldo) {
 			saldo = saldo - saque;
