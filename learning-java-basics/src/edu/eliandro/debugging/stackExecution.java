@@ -22,6 +22,7 @@ public class stackExecution {
             System.out.println(fruit);
         }
         methodB();
+        System.out.println("Finishing the method A!");
     }
 
     static void methodB() {
@@ -29,7 +30,9 @@ public class stackExecution {
         System.out.println();
         System.out.println("This is the method B result!");
         for (int i = 0; i < 3; i++) System.out.println(i);
+
         methodC();
+        System.out.println("Finishing the method B!");
     }
 
     static void methodC() {
@@ -43,5 +46,8 @@ public class stackExecution {
             System.out.println("Index: " + i);
             i++;
         }
+
+        System.out.println();
+        System.out.println("Finishing the method C!");
     }
 }
